@@ -1,0 +1,47 @@
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="OrbitalStudy" width="200"></a>
+  <br>
+  OrbitalStudy
+  <br>
+</h1>
+
+<h4 align="center">E-commerce Exam Project built with <a href="https://reactjs.org/" target="_blank">React</a> and <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>.</h4>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/gatsby"><img src="https://badge.fury.io/js/gatsby.svg" alt="npm version" height="18"></a>
+  <a href="https://www.npmjs.com/package/@stripe/stripe-js"><img src="https://badge.fury.io/js/%40stripe%2Fstripe-js.svg" alt="npm version" height="18"></a>
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
+
+## Overview
+Project OrbitalStudy is a online platform for students to get information for studying abroad. The platform helps students finding universities they might like. And gives information on where to start, entry requirements, admission letters, student visa's and much more.
+
+## Key Features
+* University Search Engine
+* Information Center
+* Calendar/Date Manager
+
+## Credits
+- [Node.js](https://nodejs.org/)
+- [React](https://reactjs.org/)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [@stripe/stripe.js](https://www.npmjs.com/package/@stripe/stripe-js)
+
+## License
+
+MIT
+
+---
+
+> [nielskohlenberg.com](https://www.nielskohlenberg.com) &nbsp;&middot;&nbsp;
+> GitHub [@NielsKohlenberg](https://github.com/NielsKohlenberg) &nbsp;&middot;&nbsp;
+> Dribbble [@NielsKohlenberg](https://dribbble.com/NielsKohlenberg)
