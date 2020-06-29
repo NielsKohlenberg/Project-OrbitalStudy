@@ -37,6 +37,6 @@ MIT
 
 ---
 
-> [nielskohlenberg.com](https://www.nielskohlenberg.com) &nbsp;&middot;&nbsp;
+> [nielskohlenberg.com](https://portfolio.nielskohlenberg.com) &nbsp;&middot;&nbsp;
 > GitHub [@NielsKohlenberg](https://github.com/NielsKohlenberg) &nbsp;&middot;&nbsp;
 > Dribbble [@NielsKohlenberg](https://dribbble.com/NielsKohlenberg)
