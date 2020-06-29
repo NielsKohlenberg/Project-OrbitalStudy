@@ -20,11 +20,6 @@
 ## Overview
 Project OrbitalStudy is a online platform for students to get information for studying abroad. The platform helps students find universities they might like. And gives information on where to start, entry requirements, admission letters, student visa's and much more.
 
-## Key Features
-* University Search Engine
-* Information Center
-* Calendar/Date Manager
-
 ## Credits
 - [Node.js](https://nodejs.org/)
 - [React](https://reactjs.org/)
