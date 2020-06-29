@@ -1,0 +1,53 @@
+.Landing{
+  height: 90vh;
+  width: 100%;
+  background-color: #202020;
+  padding-top: 80px;
+  background-size: cover;
+  background-position: calc(83% - 0px) calc(100% - 0px);
+  background-repeat: no-repeat;
+}
+.Landing .ContainerMain{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.Landing .Title{
+  text-align: right;
+  color: #F5F5F5;
+  font-size: 2em;
+  width: 60vw;
+  margin-top: 55px;
+}
+.Landing .Content{
+  text-align: right;
+  width: 55vw;
+  margin-top: -15px;
+  color: #F5F5F5;
+  font-weight: 300;
+}
+.Landing .GetStarted{
+  width: 60vw;
+  margin-top: -30px;
+  text-align: right;
+}
+@media only screen and (min-width: 1680px) {
+  .Landing{
+    height: 90vh;
+    background-position: top;
+  }
+  .Landing .ContainerMain{
+    justify-content: flex-start;
+  }
+  .Landing .Title{
+    text-align: left;
+    margin-top: 250px;
+  }
+  .Landing .Content{
+    text-align: left;
+    width: 35%;
+  }
+  .Landing .GetStarted{
+    text-align: left;
+  }
+}

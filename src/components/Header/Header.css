@@ -1,0 +1,78 @@
+.Header{
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  background-color: #F5F5F5;
+  border-bottom: solid 1px #EEEEEE;
+  z-index: 10;
+}
+.Header .HeaderContainer{
+  display: grid;
+  grid-template-columns: 1fr 0fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "BrandWrap NavigationWrap LoginWrap";
+}
+.Header .BrandWrap{
+  grid-area: BrandWrap;
+}
+.Header .BrandWrap .Logo{
+  width: 140px;
+  height: 54px;
+  margin-top: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Header .NavigationWrap{
+  width: 0;
+  display: none;
+  grid-area: NavigationWrap;
+}
+.Header .LoginWrap{
+  grid-area: LoginWrap;
+}
+.Header .LoginWrap .Menu{
+  display: flex;
+  justify-content: flex-end;
+}
+.Header .LoginWrap .Menu svg{
+  width: 44px;
+  height: 44px;
+  margin-top: 10px;
+  fill: #ACACAC;
+}
+.Header .LoginWrap .Login{
+  display: none;
+}
+@media only screen and (min-width: 1680px) {
+  .Header{
+    height: 80px;
+  }
+  .Header .HeaderContainer{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "BrandWrap NavigationWrap LoginWrap";
+  }
+  .Header .BrandWrap .Logo{
+    width: 200px;
+    height: 60px;
+    margin-top: 12px;
+  }
+  .Header .NavigationWrap{
+    display: block;
+    grid-area: NavigationWrap;
+    width: 100%;
+  }
+  .Header .LoginWrap .Menu{
+    display: none;
+  }
+  .Header .LoginWrap .Login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

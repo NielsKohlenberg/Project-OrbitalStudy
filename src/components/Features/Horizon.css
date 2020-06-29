@@ -1,0 +1,16 @@
+.HorizonSection{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+.HorizonContainer{
+  position: relative;
+  height: 100%;
+  margin-left: 2.5%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 0;
+}

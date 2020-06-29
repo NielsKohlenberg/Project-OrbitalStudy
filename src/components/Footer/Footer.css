@@ -1,0 +1,53 @@
+.Footer{
+  height: 200px;
+  width: 100%;
+  border-top: solid 5px #DDC9AE;
+}
+.FooterWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "Company Service Business News";
+}
+.Footer .Company{
+  grid-area: Company;
+  padding-top: 30px;
+}
+.Footer .Company p{
+  margin-top: -20px;
+}
+.Footer .Service{
+  grid-area: Service;
+  padding-top: 30px;
+}
+.Footer .Business{
+  grid-area: Business;
+  padding-top: 30px;
+}
+.Footer .News{
+  grid-area: News;
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.Footer h3{
+  font-weight: 400;
+  font-size: 1.2em;
+}
+.Footer p{
+  font-size: 1em;
+  margin-top: -25px;
+}
+.Footer h4{
+  text-align: right;
+}
+.Footer input{
+  height: 35px;
+  margin-top: -55px;
+  width: 300px;
+}
+.Footer .GetStarted{
+  margin-top: -70px;
+}

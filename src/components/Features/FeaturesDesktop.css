@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1680px) {
+  .FeaturesDesktop{
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "TextWrapperLeft Phone TextWrapperRight";
+  }
+  .FeaturesDesktop .TextWrapperLeft{
+    grid-area: TextWrapperLeft;
+    text-align: right;
+    padding-left: 300px;
+    padding-top: 100px;
+  }
+  .FeaturesDesktop .Phone{
+    height: 70vh;
+    margin-top: 0px;
+    grid-area: Phone;
+  }
+  .FeaturesDesktop .TextWrapperRight{
+    grid-area: TextWrapperRight;
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 100px;
+  }
+  .FeaturesDesktop .ItemFeature{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .FeaturesDesktop .ItemFeature .Title{
+    font-size: 1.4em;
+  }
+  .FeaturesDesktop .ItemFeature .Paragraph{
+    margin-top: -15px;
+  }
+  .ResetFeatures{
+    margin-top: 0;
+  }
+}

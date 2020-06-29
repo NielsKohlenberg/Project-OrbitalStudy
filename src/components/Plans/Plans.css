@@ -1,0 +1,119 @@
+.Plans{
+  margin-top: 30px;
+}
+.Plans .Plan{
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  border: solid 1px #707070;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Plans .Plan .Title{
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #202020;
+}
+.Plans .Plan .SubTitle{
+  margin-top: -10px;
+  font-weight: 400;
+  color: #202020;
+}
+.Plans .Plan .TopPriceTitle{
+  margin-top: 50px;
+  margin-bottom: -45px;
+}
+.Plans .Plan .Costs{
+  font-weight: 400;
+  margin-top: 50px;
+}
+.Plans .Plan .Costs .Price{
+  font-size: 2.7em;
+  font-weight: 700;
+}
+.Plans .Plan .Costs .Montly{
+  font-size: 1em;
+}
+.Plans .Plan .BottomPriceTitle{
+  margin-top: -28px;
+  font-size: 0.8em;
+  color: #9D9D9D;
+}
+.Plans .Plan .GetStarted button{
+  width: 100%;
+  border-radius: 0;
+  border: solid 3px #D7A41A;
+  color: #D7A41A;
+  background-color: transparent;
+  height: 50px;
+  font-size: 1.4em;
+}
+.Plans .Plan .Checkout button{
+  width: 100%;
+  border-radius: 0;
+  border: solid 3px #D7A41A;
+  color: #D7A41A;
+  background-color: transparent;
+  height: 50px;
+  font-size: 1.4em;
+}
+.Plans .Plan .Details{
+  color: #9D9D9D;
+  margin-top: 4px;
+}
+.Plans .Plan .FeaturesTitle{
+  font-size: 1.2em;
+}
+.Plans .Plan .Feature{
+  font-size: 1em;
+  margin-top: -10px;
+  line-height: 10px;
+}
+.Plans .Plan .FeatureList{
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 1680px) {
+  .Plans{
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "Basic Deluxe Premium";
+  }
+  .Plans .Basic{
+    grid-area: Basic;
+  }
+  .Plans .Basic .Costs{
+    margin-top: 107px;
+  }
+  .Plans .Basic .GetStarted{
+    margin-top: 50px;
+  }
+  .Plans .Deluxe{
+    grid-area: Deluxe;
+  }
+  .Plans .Premium{
+    grid-area: Premium
+  }
+  .Plans .Plan .SubTitle{
+    width: 350px!important;
+  }
+  .Plans .Plan .Feature{
+    line-height: 20px;
+  }
+  .Plans .Plan .TextWrap{
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "Left Right";
+  }
+  .Plans .Plan .TextWrap .Left{
+    grid-area: Left;
+  }
+  .Plans .Plan .TextWrap .Right{
+    grid-area: Right;
+    text-align: right;
+  }
+}

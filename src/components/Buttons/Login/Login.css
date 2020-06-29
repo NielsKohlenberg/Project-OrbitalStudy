@@ -1,0 +1,17 @@
+.LoginButton button{
+  height: 40px;
+  margin-top: 20px;
+  width: 100px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #202020;
+  border: none;
+  background-color: transparent;
+}
+.LoginButton button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.LoginButton button:focus{
+  outline: solid 2px transparent!important;
+  border: none!important;
+}

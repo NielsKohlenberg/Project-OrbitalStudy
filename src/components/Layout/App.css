@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&display=swap|Playfair+Display:wght@400;900&display=swap');
+.ContainerMain{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+a{
+  outline-color: transparent;
+  border: none;
+}
+a:hover{
+  outline-color: transparent;
+  border: none;
+}
+a:focus{
+  outline-color: transparent;
+  border: none;
+}
+hr{
+  margin-top: 40px;
+  margin-bottom: 40px;
+   background-color: transparent;
+}
+.Empty{
+  height: 3000px;
+  background-color: #FF0000;
+}
+.Mobile{
+  display: block;
+}
+.Desktop{
+  display: none;
+}
+@media only screen and (min-width: 1680px) {
+  .ContainerMain{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .Mobile{
+    display: none;
+  }
+  .Desktop{
+    display: block;
+  }
+}

@@ -1,0 +1,70 @@
+.Article{
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+.Article .ImageWrapper{
+  margin-bottom: 20px;
+  grid-area: ImageWrapper;
+}
+.Article .ImageWrapper .Image{
+  height: 430px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Article .TextWrapper{
+  grid-area: TextWrapper;
+}
+.Article .TitleTag{
+  color: #D7A414;
+  font-weight: bold;
+}
+.Article .Title{
+  margin-top: -23px;
+  font-size: 1.7em;
+  margin-bottom: 10px
+}
+.Article .SubTitle{
+  margin-top: -10px;
+}
+.Article .QuoteWrapper{
+  border-right: solid 4px #D7A414;
+  padding-right: 10px;
+}
+.Article .Quote .QuoteParagraph{
+  font-style: italic;
+}
+.Article .QuoteAuthor{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
+}
+.Article .QuoteAuthor .Image{
+  width: 50px;
+  height: 50px;
+  border: solid 2px #707070;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-image: url("https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/user-male-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Article .QuoteAuthor .Author{
+  line-height: 19px;
+  margin-top: 7px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.Article .QuoteAuthor .Author span{
+  font-weight: 400;
+}
+.Article .GetStarted{
+  margin-top: -30px;
+}
+.Article .GetStarted button{
+  height: 35px;
+  width: 170px;
+}

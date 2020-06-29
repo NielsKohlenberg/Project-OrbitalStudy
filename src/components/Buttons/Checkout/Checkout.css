@@ -1,0 +1,19 @@
+.Checkout button{
+  height: 40px;
+  margin-top: 20px;
+  width: 150px;
+  background-color: #D7A41A;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+}
+.Checkout button:hover{
+  cursor: pointer;
+  border: solid 3px #DAB764!important;
+}
+.Checkout button:focus{
+  border: solid 3px #DDC9AE!important;
+  outline: none!important;
+}
