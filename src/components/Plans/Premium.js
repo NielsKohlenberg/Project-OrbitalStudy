@@ -1,5 +1,9 @@
 import React from "react"
-import Checkout from "./../Buttons/Checkout/Checkout.js"
+import StripeCheckout from "react-stripe-checkout"
+
+function handleToken(token, addresses){
+  console.log({token, addresses});
+}
 
 const Premium = () => (
   <div className="Plan Premium">
@@ -10,7 +14,12 @@ const Premium = () => (
       <span className="Price">&euro;3.99</span><span className="Montly">/mo</span>
     </p>
     <p className="BottomPriceTitle">&euro;4.99/mo when you renew</p>
-    <Checkout Text="Add to Cart" />
+    <StripeCheckout
+      stripeKey="pk_test_51GxXdhAE9HOK6hqjYCNbEd7mheowZLaqmdWXgLSEXXqA6yHeQ6Y4sJ3n8jcaLLnAzOLMMThgFwXelm6Kivp7ix0U00JlyomVOI"
+      token={handleToken}
+      billingAddress
+      amount={0 * 100}
+    />
     <p className="Details">More Details</p>
     <div className="FeatureList">
       <p className="FeaturesTitle">Features:</p>

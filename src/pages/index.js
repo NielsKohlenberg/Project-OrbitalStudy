@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,6 +9,12 @@ import ArticleLeft from "../components/Articles/ArticleLeft.js"
 import ArticleRight from "../components/Articles/ArticleRight.js"
 import Features from "../components/Features/Features.js"
 import FeaturesDesktop from "../components/Features/FeaturesDesktop.js"
+
+useEffect(() => {
+  ReactGa.initialize('UA-171064985-1')
+
+  ReactGa.pageview('/')
+}, [])
 
 const IndexPage = () => (
   <Layout>
