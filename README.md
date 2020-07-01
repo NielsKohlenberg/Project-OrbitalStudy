@@ -7,7 +7,6 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/gatsby">Gatsby <img src="https://badge.fury.io/js/gatsby.svg" alt="npm version" height="18"></a>
-  <a href="https://www.npmjs.com/package/@stripe/stripe-js">Stripe.js <img src="https://badge.fury.io/js/%40stripe%2Fstripe-js.svg" alt="npm version" height="18"></a>
 </p>
 
 <p align="center">
